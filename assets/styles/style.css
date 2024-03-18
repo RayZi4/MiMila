@@ -1,0 +1,1800 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    color: rgb(128, 112, 98);
+    background-image: url(../img/background.jpg);
+}
+
+* {
+    font-family: "Cormorant Infant", serif;
+}
+
+.header .container .leftsite {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16pt;
+    align-items: center;
+    margin-left: 65px
+}
+
+.header .container .center {
+    width: 100px;
+    font-size: 22pt;
+    display: flex;
+    align-items: center;
+}
+
+.header .container h4 {
+    background: none;
+    transition: .7s;
+}
+
+.header .container h4:hover {
+    background: none;
+    transition: .7s;
+    color: black
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/background.jpg);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+.header .container .rightsite {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16pt;
+}
+
+.section-start {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/background.jpg);
+}
+
+.section-start h1 {
+    font-weight: 400;
+}
+
+.section-start .container {
+    display: grid;
+    width: 1173px;
+    grid-template-columns: repeat(12, 70px);
+    grid-template-rows: repeat(12, 70px);
+    gap: 30px;
+    height: 1100px;
+}
+
+.section-start .container .foto2 {
+    grid-column-start: 7;
+    grid-row-start: 2;
+}
+
+.section-start .container .foto1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.section-start .container .foto3 {
+    grid-column-start: 3;
+    grid-row-start: 7;
+}
+
+.section-start .container .foto2 img {
+    height: 670px;
+}
+
+.section-start .container .text {
+    grid-row-start: 3;
+    margin-top: 30px;
+    font-size: 60px;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-comment {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    background-image: url(../img/background.jpg);
+}
+
+.section-comment .container {
+    text-align: center;
+    font-size: 52px;
+    width: 50%;
+    margin-right: 150px;
+}
+
+.section-comment .container p {
+    margin: 0;
+}
+
+.section-product {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/background.jpg);
+    height: 700px;
+}
+
+.section-product .container {
+    display: flex;
+    gap: 180px;
+    width: 1160px;
+    align-items: center;
+    margin-left: 370px;
+
+}
+
+.section-product .containertwo {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-left: 100px;
+    width: 300px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.section-product .containertwo .next {
+    margin-right: 30px;
+}
+
+.section-product .containertwo .nextpic img {
+    width: 170px;
+    height: 340px;
+}
+
+.section-product .container .foto1 {
+    width: 470px;
+    height: 520px;
+}
+
+.section-product .card .leftsite p {
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.section-product .card .leftsite .down {
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.section-product .container .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-product .container .price .rightsite .fa-solid {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.section-product .container .price .fa-solid {
+    background: none;
+    color: none;
+    transition: .7s;
+}
+
+.section-product .container .price .fa-solid:hover {
+    background: none;
+    color: black;
+    transition: .7s;
+}
+
+.section-collection .container .line {
+    background-color: black;
+    width: 70px;
+    height: 2px;
+    margin-right: 25px;
+}
+
+.section-collection .container {
+    display: flex;
+    width: 1150px;
+    align-items: center;
+}
+
+.section-collection {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/background.jpg);
+    height: 50px;
+}
+
+.section-collection .container h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-creator .container .line {
+    background-color: black;
+    width: 70px;
+    height: 2px;
+    margin-right: 25px;
+}
+
+.section-creator .container .up {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.section-creator .container .center h1 {
+    font-size: 56px;
+}
+
+.section-creator .container .center p {
+    font-size: 27px;
+}
+
+.section-creator .container .creator .foto img {
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+}
+
+.section-creator {
+    display: flex;
+    justify-content: center;
+    height: 1250px;
+}
+
+.section-creator .container {
+    width: 1160px;
+    display: grid;
+    grid-template-columns: repeat(12, 70px);
+    grid-template-rows: repeat(12, 70px);
+    gap: 30px;
+    margin-top: 200px;
+}
+
+.section-creator .container .creator {
+    display: flex;
+    gap: 20px;
+}
+
+.section-creator .container .creator {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.section-creator .container .creator .text p {
+    margin: 0px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.section-creator .container .text {
+    width: 400px;
+    grid-column-start: 1;
+    font-size: 23px;
+}
+
+.section-creator .container .foto1 {
+    width: 470px;
+    height: 715px;
+    grid-column-start: 9;
+}
+
+.section-creator .container .foto2 {
+    width: 270px;
+    height: 270px;
+    grid-column-start: 6;
+    grid-row-start: 6;
+}
+
+.section-creator .container .center {
+    width: 660px;
+}
+
+.section-creator {
+    background-image: url(../img/background.jpg);
+}
+
+.section-plus {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/background.jpg);
+    height: 350px;
+}
+
+.section-plus .container {
+    display: flex;
+    justify-content: center;
+    width: 1160px;
+    gap: 40px;
+}
+
+.section-plus .container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+}
+
+.section-plus .container .card .jk {
+    margin-bottom: 177px;
+}
+
+.section-plus .container .card .text {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.section-buy {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    background-image: url(../img/background.jpg);
+}
+
+.section-buy .foto {
+    position: absolute;
+}
+
+.section-buy .container {
+    text-align: center;
+    font-size: 120px;
+    width: 1200px;
+}
+
+.section-buy .container p {
+    margin: 0px;
+}
+
+.section-buy .foto {
+    position: absolute;
+    top: 3900px;
+    right: 650px;
+}
+
+.section-start .container .foto4 {
+    position: relative;
+    top: 670px;
+    left: 960px;
+}
+
+.section-subscribe {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/background.jpg);
+    height: 120px;
+}
+
+.section-subscribe .container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.section-subscribe .container .text {
+    display: flex;
+    width: 300px;
+    gap: 5px;
+}
+
+.section-subscribe .container .text .rightsite {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.section-subscribe .container .text .rightsite a {
+    color: black;
+}
+
+.section-photos {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/background.jpg);
+    height: 600px;
+}
+
+.section-photos .container {
+    width: 1890px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 370px;
+}
+
+.section-photos .container img {
+    width: 360px;
+    height: 360px;
+}
+
+.section-record .container {
+    width: 1173px;
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-record {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.section-record .container .leftsite h1 {
+    font-size: 60px;
+    width: 805px;
+}
+
+.section-record .container .leftsite p {
+    font-size: 27px;
+    width: 540px;
+}
+
+.section-record .container .leftsite {
+    width: 500px;
+    margin-right: 170px;
+}
+
+.section-record .container .rightsite {
+    width: 500px;
+    margin-top: 70px;
+}
+
+.section-record .container .rightsite p {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.section-record .container .rightsite .line {
+    background-color: black;
+    width: 500px;
+    height: 2px;
+    margin-bottom: 35px;
+}
+
+.section-record .container .rightsite .center {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-record .container .rightsite .down {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.section-record .container .accept button {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0);
+    border: 1px solid;
+    transition: .7s;
+}
+
+.section-record .container .accept button:hover {
+    color: black;
+    transition: .7s;
+    background-color: rgb(207, 206, 206);
+}
+
+.section-comment .first {
+    position: relative;
+    left: 1050px;
+    bottom: 50px;
+}
+
+.section-creator .first {
+    position: relative;
+    left: 1200px;
+    top: 300px;
+}
+
+.section-end {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    background-image: url(../img/20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-end .container {
+    display: flex;
+    width: 1173px;
+    justify-content: space-between;
+    color: rgba(245, 245, 220, 0.701)
+}
+
+.section-end .container .leftsite h2 {
+    font-size: 28px;
+}
+
+.section-end .container .leftsite p {
+    font-size: 18px;
+}
+
+.section-end .container .leftsite {
+    width: 200px;
+}
+
+.section-end .container .rightsite {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.section-end .container .center {
+    font-size: 18px;
+    margin-top: 80px;
+}
+
+.section-buy .container {
+    width: 1625px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-buy {
+    background-image: url(../img/background.jpg);
+    height: 800px;
+}
+
+.section-buy .container .text h2 {
+    font-size: 140px;
+    color: #bdb4ab;
+    font-family: "Cprmprantlnafant";
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    line-height: 145px;
+}
+
+.section-buy .container .text {
+    display: flex;
+}
+
+.section-buy .container .text .pic {
+    background: url(../img/13.jpg);
+    background-size: cover;
+    width: 630px;
+    height: 390px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-buy .container .text .pic .textsecond {
+    font-size: 24px;
+    line-height: 25px;
+    color: #f1e9de;
+    font-family: "Montserrat";
+    font-weight: 300;
+
+}
+
+.section-buy .container .text .pic .btn {
+    margin-top: 20px;
+}
+
+
+.section-buy .container .text .pic .btn button {
+    background: none;
+    border: 1px solid #f1e9de;
+    color: #f1e9de;
+    width: 190px;
+    height: 55px;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    transition: .5s;
+}
+
+.section-buy .container .text .pic .btn button:hover {
+    background-color: #f1e9de;
+    color: #988f87;
+    transition: .3s;
+}
+
+.section-record .up .i {
+    background: none;
+    width: 490px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(128, 112, 98);
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+    .header{
+        width: 98%;
+    }
+    .section-start h1{
+        font-size:100px;
+    }
+    .section-start .container{
+        width: 98%;
+    }
+    .section-comment{
+        width: 100%;
+    }
+    .section-comment .container p{
+        font-size:45px;
+        
+    }
+    .section-comment .container{
+        width: 100%;
+    }
+    .section-comment .first {
+        position: relative;
+        left: 950px;
+        bottom: 50px;
+    }
+    .section-product{
+        width: 100%;
+    }
+    .section-product .container{
+        width: 1000px;
+        margin-left:30px;
+        gap:50px;
+    }
+    .section-product .container img {
+        width: 400px;
+        height: 450px;
+    }
+    .section-product .container .card{
+        width: 400px;
+    }
+    .section-product .container .foto1{
+        height: 450px;
+    }
+    .section-product .containertwo{
+        width: 100%;
+        gap:0px;
+        margin-left:20px;
+    }
+    .section-product .containertwo .nextpic img{
+        height: 250px;
+    }
+    .section-creator .container .foto1 img {
+        width: 350px;
+        height: 600px;
+        grid-column-start: 7;
+    }
+    .section-creator .container .foto1{
+        width: 350px;
+        height: 600px;
+        grid-column-start: 8;
+    }
+    .section-creator .container .foto2 {
+        width: 270px;
+        height: 270px;
+        grid-column-start: 5;
+        grid-row-start: 6;
+    }
+    .section-creator .first {
+        position: relative;
+        left: 970px;
+        top: 300px;
+    }
+    .section-creator .container .center p{
+        font-size:24px;
+    }
+    .section-buy .container .text h2{
+        font-size:100px
+    }
+    .section-buy .container .text .pic{
+        width: 550px;
+        height: 350px;
+        margin-top:200px;
+    }
+    .section-subscribe{
+        width: 100%;
+    }
+    .section-photos .container{
+        width: 100%;
+    }
+    .section-photos .container img {
+        width: 210px;
+        height: 210px;
+    }
+    .section-end .container {
+        display: flex;
+        width: 1173px;
+        justify-content: space-around;
+        color: rgba(245, 245, 220, 0.701);
+    }
+    .section-record .container{
+        width: 99%;
+    }
+    .section-creator .container{
+        width: 95%;
+    }
+    .section-collection .container{
+        width: 95%;
+    }
+    .section-end{
+        width: 100%;
+    }
+    .section-start .container .foto4 {
+        position: relative;
+        top: 670px;
+        left: 940px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+    .section-photos .container{
+        width: 100%;
+    }
+    .section-photos .container img {
+        width: 130px;
+        height: 130px;
+    }
+    .section-buy .container .text h2{
+        font-size:80px;
+        line-height: 120px;
+    }
+    .section-creator .first{
+        transform: scale(0.8);
+    }
+    .section-buy .container .text .pic{
+        width: 450px;
+        height: 250px;
+        margin-top:180px;
+    }
+    .section-buy .container .text .pic .textsecond{
+        font-size:20px;
+        margin-top:100px;
+        margin-bottom: 0;
+    }
+    .section-buy .container .text .pic .btn button{
+        margin-top:0;
+        margin-bottom:100px;
+    }
+    .section-record .container{
+        display: flex;
+        text-align: center;
+        margin-top: 120px;
+
+    }
+    .section-record .container .leftsite{
+        margin-right:0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-record .container .rightsite{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    .section-record{
+        height: 1100px;
+    }
+    .section-plus{
+        width: 100%;
+    }
+    .section-plus .container{
+        gap:0;
+        justify-content: center;
+        width: 98%;
+    }
+    .section-plus .container .card .text{
+        font-size:19px;
+    }
+    .section-creator .container .foto1 img {
+        width: 250px;
+        height: 500px;
+        grid-column-start: 6;
+    }
+    .section-creator .container .foto1{
+        width: 250px;
+        height: 500px;
+        grid-column-start: 7;
+    }
+    .section-creator .container .foto2 img{
+        width: 170px;
+        height: 170px;
+        grid-column-start: 5;
+        grid-row-start: 6;
+    }
+    .section-creator .container .foto2{
+        width: 170px;
+        height: 170px;
+        grid-column-start: 4;
+        grid-row-start: 6;
+    }
+    .section-creator .first {
+        position: relative;
+        left: 770px;
+        top: 200px;
+    }
+    .section-creator .container .center p {
+        font-size: 21px;
+    }
+    .section-creator .container .center {
+        width: 550px;
+        grid-row-start: 1;
+    }
+    .section-creator .container .center h1 {
+        font-size: 56px;
+    }
+    .section-creator .container .center h1 {
+        font-size: 48px;
+    }
+    .section-start .container .foto1 img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        width: 220px;
+        height: 220px;
+    }
+    .section-start .container .foto3 img{
+        grid-column-start: 3;
+        grid-row-start: 7;
+        width: 150px;
+        height: 150px;
+    }
+    .section-start .container .foto2 img{
+        grid-column-start: 3;
+        grid-row-start: 7;
+        width: 370px;
+        height: 550px;
+    }
+    .section-start .container .foto2{
+        grid-column-start: 6;
+        grid-row-start: 2;
+        width: 370px;
+        height: 550px;
+    }
+    .section-start .container{
+        width: 90%;
+    }
+    .section-start .container .foto4 {
+        position: relative;
+        top: 550px;
+        left: 700px;
+    }
+    .section-comment{
+        width: 100%;
+    }
+    .section-comment .container p{
+        font-size:38px;
+        
+    }
+    .section-comment .container{
+        width: 100%;
+    }
+    .section-comment .first {
+        position: relative;
+        left: 750px;
+        bottom: 50px;
+    }
+    .section-product{
+        width: 100%;
+    }
+    .section-product .container{
+        width: 98%;
+        gap:50px;
+        margin-left:100px;
+    }
+    .section-product .container img {
+        width: 300px;
+        height: 350px;
+    }
+    .section-product .container .card{
+        width: 400px;
+    }
+    .section-product .container .foto1{
+        height: 450px;
+        width: 300px;
+        height: 350px;
+    }
+    .section-product .containertwo{
+        width: 100%;
+        gap:0px;
+        margin-left:40px;
+    }
+    .section-product .containertwo .nextpic img{
+        height: 250px;
+    }
+    .section-product .container .price {
+        display: flex;
+        align-items: center;
+        width: 300px;
+    }
+    .section-product .container .price .rightsite .fa-solid {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .section-product .container .card {
+        width: 300px;
+    }
+    .section-end{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+    .header .container{
+        width: 90%;
+    }
+    .section-start{
+        height: 800px;
+    }
+    .section-start .container{
+        height: 100%;
+    }
+    .header .container .leftsite{
+        font-size:14px;
+        width: 20%;
+        margin-left:0px
+    }
+    .header .container .rightsite{
+        font-size:14px;
+        width: 30%;
+    }
+    .header .container .center{
+        font-size:20px;
+    }
+    .section-start .container .foto1 img {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        width: 150px;
+        height: 150px;
+    }
+    .section-start .container .foto2 img {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        width: 270px;
+        height: 450px;
+    }
+    .section-start .container .foto2 {
+        grid-column-start: 5;
+        width: 100%;
+    }
+    .section-start .container .text h1{
+        font-size:70px;
+    }
+    .section-start .container .foto3 img {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        width: 120px;
+        height: 120px;
+    }
+    .section-start .container .foto4 {
+        position: relative;
+        top: 450px;
+        left: 500px;
+    }
+    .section-start .container .foto4 img{
+        width: 120px;
+    }
+    .section-start .container .foto3 {
+        grid-column-start: 3;
+        grid-row-start: 6;
+    }
+    .section-comment .container {
+        text-align: center;
+        font-size: 52px;
+        width: 50%;
+        margin-right: 150px;
+    }
+    .section-comment .container p {
+        font-size: 35px;
+    }
+    .section-comment .container{
+        width: 100%;
+    }
+    .section-comment .first {
+        position: relative;
+        left: 550px;
+        bottom: 30px;
+    }
+    .section-creator .container .foto1 img{
+        width: 170px;
+        height: 400px;
+        grid-column-start: 6;
+    }
+    .section-creator .container .foto1{
+        width: 170px;
+        height: 400px;
+        grid-column-start: 6;
+        grid-row-start:2;
+    }
+    .section-creator .container .center h1 {
+        font-size: 40px;
+    }
+    .section-creator .container .center p {
+        font-size: 19px;
+    }
+    .section-creator .container .center {
+        width: 450px;
+        grid-row-start: 1;
+    }
+    .section-creator .container .creator .foto img {
+        border-radius: 100px;
+        width: 60px;
+        height: 60px;
+    }
+    .section-creator .container .text {
+        width: 400px;
+        grid-column-start: 1;
+        font-size: 20px;
+    }
+    .section-creator .container .foto2 img{
+        width: 120px;
+        height: 120px;
+        grid-column-start: 4;
+        grid-row-start: 6;
+    }
+    .section-creator{
+        height: 800px;
+    }
+    .section-creator .container{
+        margin-top:0;
+    }
+    .section-creator .first {
+        transform: scale(0.5);
+    }
+    .section-creator .first {
+        position: relative;
+        left: 620px;
+        top: 300px;
+    }
+    .section-buy .container .text h2 {
+        font-size: 60px;
+        line-height: 100px;
+    }
+    .section-buy .container .text .pic {
+        width: 350px;
+        height: 250px;
+        margin-top: 130px;
+    }
+    .section-buy .container .text .pic .textsecond {
+        font-size: 16px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+    .section-buy{
+        height: 600px;
+    }
+    .section-photos .container img {
+        width: 100px;
+        height: 100px;
+    }
+    .section-photos .container{
+        height: 100%;
+    }
+    .section-photos{
+        height: 300px;
+    }
+    .section-record .container .leftsite h1 {
+        font-size: 50px;
+        width: 100%;
+    }
+    .section-record .container .leftsite p {
+        font-size: 24px;
+        width: 540px;
+    }
+    .section-product .container{
+        width: 98%;
+        gap:100px;
+        margin-left:50px;
+    }
+    .section-product .container img {
+        width: 200px;
+        height: 250px;
+    }
+    .section-product .container .card{
+        width: 400px;
+    }
+    .section-product .container .foto1{
+        width: 200px;
+        height: 250px;
+    }
+    .section-product .card .leftsite p {
+        margin-bottom: 0;
+        font-size: 17px;
+    }
+    .section-product .card .leftsite .down {
+        margin-top: 7px;
+        font-size: 15px;
+    }
+    .section-product .containertwo{
+        width: 100%;
+        gap:0px;
+        margin-left:40px;
+    }
+    .section-product .containertwo .nextpic img{
+        height: 250px;
+    }
+    .section-product .container .price {
+        display: flex;
+        align-items: center;
+        width: 200px;
+    }
+    .section-product .container .price .rightsite {
+        font-size: 15px;
+    }
+    .section-product .container .price .rightsite .fa-solid {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .section-product .container .card {
+        width: 200px;
+    }
+    .section-product .containertwo .nextpic img {
+        height: 180px;
+        width: 130px;
+    }
+    .section-plus .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-plus{
+        height: 900px;
+    }
+    .section-plus .container .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 330px;
+        height: 330px;
+    }
+    .section-plus .container .card .text{
+        text-align: center;
+    }
+    .section-plus .container .card .jk {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+    .section-end .container .leftsite h2 {
+        font-size: 23px;
+    }
+    .section-end .container .leftsite p {
+        font-size: 18px;
+    }
+    .section-end .container .leftsite p {
+        font-size: 13px;
+    }
+    .section-end .container .leftsite{
+        width: 33%;
+        margin-left:20px;
+    }
+    .section-end .container .center {
+        font-size: 13px;
+        margin-top: 50px;
+        width: 33%;
+    }
+    .section-end .container .rightsite{
+        transform: scale(0.7);
+    }
+    .section-photos .container img {
+        width: 70px;
+        height: 70px;
+    }
+    .section-photos .container{
+        margin-left:0;
+    }
+    .section-subscribe .container{
+        font-size:15px;
+    }
+    .section-buy .container .text h2 {
+        font-size: 45px;
+        line-height: 100px;
+    }
+    .section-subscribe .container {
+        font-size: 15px;
+        margin-left:50px;
+    }
+    .section-buy .container .text .pic {
+        width: 250px;
+        height: 250px;
+        margin-top: 120px;
+    }
+    .section-buy .container .text .pic .textsecond {
+        font-size: 12px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+    .section-buy .container .text .pic .btn button {
+        background: none;
+        border: 1px solid #f1e9de;
+        color: #f1e9de;
+        width: 120px;
+        height: 40px;
+        border-radius: 30px;
+        font-family: "Montserrat";
+        font-weight: 300;
+        transition: .5s;
+    }
+    .section-creator .container .center {
+        width: 370px;
+        grid-row-start: 1;
+    }
+    .section-creator .container .foto1 img {
+        width: 100px;
+        height: 300px;
+        grid-column-start: 5;
+    }
+    .section-creator .container .foto2 img {
+        width: 90px;
+        height: 90px;
+        grid-column-start: 4;
+        grid-row-start: 6;
+    }
+    .section-creator .first {
+        position: relative;
+        left: 450px;
+        top: 250px;
+        transform: scale(0.4);
+    }
+    .section-creator .container .text {
+        width: 400px;
+        grid-column-start: 1;
+        font-size: 16px;
+    }
+    .section-creator .container .foto1{
+        grid-column-start: 5;
+    }
+    .header .container .leftsite {
+        font-size: 14px;
+        width: 27%;
+        margin-left: 0px;
+    }
+    .header .container .rightsite {
+        font-size: 14px;
+        width: 40%;
+    }
+    .header .container .center {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .section-start .container .foto1 img {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        width: 100px;
+        height: 100px;
+    }
+    .section-start .container .foto3 img {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        width: 80px;
+        height: 80px;
+    }
+    .section-start .container .foto2 img {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        width: 200px;
+        height: 350px;
+    }
+    .section-start .container .foto2 {
+        grid-column-start: 4;
+        width: 100%;
+    }
+    .section-start .container .text h1 {
+        font-size: 55px;
+    }
+    .section-start .container .foto4 {
+        position: relative;
+        top: 360px;
+        left: 350px;
+    }
+    .section-start .container .foto4 img{
+        width: 90px;
+    }
+    .section-comment .container p {
+        font-size: 28px;
+    }
+    .section-comment .first {
+        position: relative;
+        left: 350px;
+        bottom: 20px;
+        transform: scale(0.8);
+    }
+    .section-collection .container h2{
+        font-size:15px;
+    }
+    .section-product .container img {
+        width: 150px;
+        height: 150px;
+    }
+    .section-product .container {
+        width: 98%;
+        gap: 100px;
+        margin-left: 50px;
+    }
+    .section-product .containertwo .nextpic img {
+        height: 100px;
+        width: 90px;
+    }
+    .section-product .containertwo{
+        margin-left:5px;
+    }
+    .section-product .container .foto1 {
+        width: 150px;
+        height: 150px;
+    }
+    .section-product .container .price {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .section-product .container .card {
+        width: 150px;
+    }
+    .section-product .card .leftsite p {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+    .section-product .card .leftsite .down {
+        margin-top: 7px;
+        font-size: 13px;
+    }
+    .section-product .container .price .rightsite .fa-solid {
+        font-size: 35px;
+        margin-top: 10px;
+        transform: scale(0.5);
+    }
+    .section-product .containertwo .next {
+        margin-right: 10px;
+        transform: scale(0.5);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
+    }
+    .section-record .container .leftsite h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .section-record .container .leftsite p {
+        font-size: 18px;
+        width: 540px;
+        width: 60%;
+    }
+    .section-record .up{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section-record .up  .two{
+        width: 250px;
+    }
+    .section-record .up .i {
+        background: none;
+        width: 490px;
+        height: 50px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+    }
+    .section-record .container .rightsite .line {
+        background-color: black;
+        width: 250px;
+        height: 2px;
+        margin-bottom: 35px;
+    }
+    .section-record .container .rightsite .third{
+        font-size:15px;
+    }
+    .section-record .container .rightsite .second{
+        font-size:15px;
+    }
+    .section-record .container .rightsite .first{
+        font-size:15px;
+    }
+    .section-record .container .rightsite .up{
+        width: 100%;
+        align-items: center;
+    }
+    .section-record .container .rightsite .center{
+        justify-content: center;
+        gap:15px;
+    }
+    .section-record{
+        width: 98%;
+    }
+    .section-record .container .rightsite .down {
+        font-size: 17px;
+        margin-top: 35px;
+    }
+    .section-record .container .accept button {
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 255, 255, 0);
+        border: 1px solid;
+        transition: .7s;
+    }
+    .section-end .container .leftsite{
+        width: 33%;
+    }
+    .section-photos .container img {
+        width: 45px;
+        height: 45px;
+    }
+    .section-subscribe .container .text {
+        display: flex;
+        width: 300px;
+        gap: 5px;
+        font-size:12px;
+    }
+    .section-subscribe .container{
+        margin:0;
+        flex-direction: column;
+    }
+    .section-subscribe .container .text {
+        display: flex;
+        width: 300px;
+        gap: 5px;
+        font-size: 12px;
+        justify-content: center;
+    }
+    .section-buy .container .text h2 {
+        font-size: 25px;
+        line-height: 100px;
+        line-height: 70px;
+    }
+    .section-buy .container .text .pic {
+        width: 180px;
+        height: 180px;
+        margin-top: 0;
+        margin-left:0;
+
+    }
+    .section-buy .container .text .pic .textsecond {
+        font-size: 8px;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .section-buy .container .text .pic .btn button {
+        background: none;
+        border: 1px solid #f1e9de;
+        color: #f1e9de;
+        width: 120px;
+        height: 40px;
+        border-radius: 30px;
+        font-family: "Montserrat";
+        font-weight: 300;
+        transition: .5s;
+    }
+    .section-buy .container .text .pic .btn {
+        margin-top: 50px;
+        height:100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .section-photos {
+        height: 100px;
+    }
+    .section-buy{
+        height: 400px;
+    }
+    .section-buy .container .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-plus .container .card .text {
+        font-size: 17px;
+    }
+    .section-plus .container .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 330px;
+        height: 270px;
+    }
+    .section-plus {
+        height: 800px;
+    }
+    .section-creator .container .center p {
+        font-size: 13px;
+    }
+    .section-creator{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .section-creator .container .center {
+        width: 300px;
+        grid-row-start: 1;
+    }
+    .section-creator .container .center h1 {
+        font-size: 33px;
+    }
+    .section-creator .container .text {
+        width: 400px;
+        grid-column-start: 1;
+        font-size: 13px;
+    }
+    .section-creator .container .creator .foto img {
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+    }
+    .section-creator .container .up {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    .section-creator .container .line {
+        background-color: black;
+        width: 50px;
+        height: 1px;
+        margin-right: 25px;
+    }
+    .section-creator .container .foto1 {
+        grid-column-start: 4;
+    }
+    .section-creator .container .foto1 img {
+        width: 120px;
+        height: 300px;
+        grid-column-start: 5;
+    }
+    .section-creator .first {
+        position: relative;
+        left: 355px;
+        top: 230px;
+        transform: scale(0.4);
+    }
+    .section-creator .container .foto2 {
+        width: 170px;
+        height: 170px;
+        grid-column-start: 3;
+        grid-row-start: 6;
+    }
+    .section-creator .container{
+        height: 700px;
+    }
+    .header .container .leftsite {
+        font-size: 8px;
+        width: 40;
+        margin-left: 0px;
+    }
+    .header .container .rightsite {
+        font-size: 8px;
+        width: 50%;
+    }
+    .header .container .center {
+        font-size: 17px;
+    }
+    .header {
+        width: 98%;
+        height: 150px;
+    }
+    .header .container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-start .container .foto1 img {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        width: 60px;
+        height: 60px;
+    }
+    .section-start {
+        height: 500px;
+    }
+    .section-start .container .text {
+        grid-row-start: 2;
+        margin-top: 30px;
+        font-size: 60px;
+        position: relative;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .section-start .container .text h1 {
+        font-size: 40px;
+    }
+    .section-start .container .foto2 img {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        width: 130px;
+        height: 250px;
+    }
+    .section-start .container .foto2 {
+        grid-column-start: 4;
+        grid-row-start: 2;
+        width: 100%;
+    }
+    .section-start .container .foto3 img {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        width: 50px;
+        height: 50px;
+    }
+    .section-start .container .foto3 {
+        grid-column-start: 2;
+        grid-row-start: 5;
+    }
+    .section-comment .container p {
+        font-size: 23px;
+    }
+    .section-comment .first {
+        position: relative;
+        left: 270px;
+        bottom: 20px;
+        transform: scale(0.8);
+    }
+    .section-start .container {
+        display: grid;
+        width: 1173px;
+        grid-template-columns: repeat(5, 30px);
+        grid-template-rows: repeat(5, 30px);
+        gap: 30px;
+        height: 1100px;
+    }
+    .section-creator{
+        width: 100%;
+    }
+    .section-creator .container .up {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+    .section-creator .container{
+        grid-template-columns: repeat(5, 50px);
+        grid-template-rows: repeat(6, 50px);
+    }
+
+    .section-collection .container h2 {
+        font-size: 11px;
+    }
+    .section-collection .container .line {
+        background-color: black;
+        width: 50px;
+        height: 1px;
+        margin-right: 25px;
+    }
+    .section-buy .container .text .pic img{
+        object-fit: contain;
+    }
+    .section-creator .container .center{
+        text-align: center;
+        width: 300px;
+        margin-left:30px;
+    }
+    .section-creator .container .creator{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-creator .container .text{
+        text-align: center;
+        width: 300px;
+    }
+    .section-creator .container .up{
+        width: 200px;
+    }
+    .section-creator .container .foto1 {
+        grid-column-start: 1;
+        grid-row-start: 4;
+    }
+    .section-creator .first{
+        left: 80px;
+        top: 400px;
+    }
+    .section-creator .container .foto2{
+        grid-column-start: 4;
+        grid-row-start: 6;
+    }
+    .section-creator .container .center h1 {
+        font-size: 23px;
+    }
+    .section-creator .container .center p {
+        font-size: 10px;
+    }
+    .section-creator .container .creator .foto {
+        width: 300px;
+        margin-left:60px;
+    }
+    .section-creator .container .text .text{
+        margin-left:60px;
+    }
+    .section-product .container {
+        width: 98%;
+        gap: 30px;
+        margin-left: 30px;
+    }
+    .section-product .container img {
+        width: 100px;
+        height: 100px;
+    }
+    .section-product{
+        width: 98%;
+        height: 400px;
+    }
+    .section-product .container .card{
+        width: 100px;
+    }
+    .section-product .containertwo .nextpic img{
+        height: 80px;
+        width: 70px;
+    }
+    .section-product .containertwo {
+        margin-bottom: 100px;
+    }
+    .section-start .container .foto4{
+        top: 250px;
+        left: 220px;
+        transform: scale(0.6);
+    }
+    .section-comment .first{
+        transform: scale(0.6);
+    }
+    .section-creator .container .foto2{
+        width: 90px;
+        height: 90px;
+    }
+    .section-record .up .i{
+        width: 100%;
+    }
+}
